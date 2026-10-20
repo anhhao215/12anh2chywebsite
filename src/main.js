@@ -316,7 +316,7 @@ Ngày hôm nay chính là ngày 20/10, một ngày rất quan trọng đối v�
     })
   })()
 
-  (function petals() {
+  ;(function petals() {
     const box = $('#petals')
     if (!box) return
     const syms = ['i-petal', 'i-petal', 'i-heart', 'i-flower', 'i-spark', 'i-star']
