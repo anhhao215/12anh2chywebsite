@@ -1,216 +1,217 @@
 <!doctype html>
 <html lang="vi">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <title>Thư 20/10 12 Anh 2</title>
-  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Be+Vietnam+Pro:wght@400;500;600;700&family=Mali:wght@500;600;700&display=swap" rel="stylesheet">
-  <style>
-    html{color-scheme:light}
-    :root{
-      --bg:#f6eeff; --bg-dot:#d4c0f5;
-      --ink:#1c1033; --ink-soft:#5d4a7e; --error:#d6104f;
-      --card:#ffffff; --field:#fbf6ff; --line:#1c1033; --hard:#1c1033;
-      --pink:#ff4fa3; --yellow:#ffd83d; --mint:#4fe0b5; --blue:#7a95ff; --on-pop:#1c1033;
-      --paper:#fffefa; --paper-ink:#1c1033; --paper-line:#c4d4ff; --paper-margin:#ff8fbf; --paper-accent:#d6247f;
-      --display:'Baloo 2','Be Vietnam Pro',system-ui,sans-serif;
-      --body:'Be Vietnam Pro',system-ui,-apple-system,'Segoe UI',sans-serif;
-      --hand:'Mali','Segoe Print','Comic Sans MS',cursive;
-    }
-    @media (prefers-color-scheme: dark){
-      :root:not([data-theme="light"]){
-        --bg:#140a24; --bg-dot:#2b1850;
-        --ink:#fdf2ff; --ink-soft:#c9b3e6; --error:#ff8aa9;
-        --card:#241238; --field:#170b29; --line:#f1e2ff; --hard:#000000;
-        color-scheme:dark;
-      }
-    }
-    :root[data-theme="dark"]{
-      --bg:#140a24; --bg-dot:#2b1850;
-      --ink:#fdf2ff; --ink-soft:#c9b3e6; --error:#ff8aa9;
-      --card:#241238; --field:#170b29; --line:#f1e2ff; --hard:#000000;
-      color-scheme:dark;
-    }
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Thư 20/10 12 Anh 2</title>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Be+Vietnam+Pro:wght@400;500;600;700&family=Mali:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+html{color-scheme:light}
+:root{
+  --bg:#f6eeff; --bg-dot:#d4c0f5;
+  --ink:#1c1033; --ink-soft:#5d4a7e; --error:#d6104f;
+  --card:#ffffff; --field:#fbf6ff; --line:#1c1033; --hard:#1c1033;
+  --pink:#ff4fa3; --yellow:#ffd83d; --mint:#4fe0b5; --blue:#7a95ff; --on-pop:#1c1033;
+  --paper:#fffefa; --paper-ink:#1c1033; --paper-line:#c4d4ff; --paper-margin:#ff8fbf; --paper-accent:#d6247f;
+  --display:'Baloo 2','Be Vietnam Pro',system-ui,sans-serif;
+  --body:'Be Vietnam Pro',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --hand:'Mali','Segoe Print','Comic Sans MS',cursive;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#140a24; --bg-dot:#2b1850;
+    --ink:#fdf2ff; --ink-soft:#c9b3e6; --error:#ff8aa9;
+    --card:#241238; --field:#170b29; --line:#f1e2ff; --hard:#000000;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#140a24; --bg-dot:#2b1850;
+  --ink:#fdf2ff; --ink-soft:#c9b3e6; --error:#ff8aa9;
+  --card:#241238; --field:#170b29; --line:#f1e2ff; --hard:#000000;
+  color-scheme:dark;
+}
 
-    *{box-sizing:border-box}
-    [hidden]{display:none!important}
-    html{overflow-x:hidden; -webkit-text-size-adjust:100%}
-    @supports (overflow:clip){ html,body{overflow-x:clip} }
-    body{
-      margin:0; min-height:100dvh;
-      background:var(--bg);
-      background-image:radial-gradient(var(--bg-dot) 1.6px, transparent 1.8px);
-      background-size:22px 22px;
-      color:var(--ink); font-family:var(--body); font-size:16px; line-height:1.6;
-      padding-block:28px 0;
-      padding-left:max(16px, env(safe-area-inset-left, 0px));
-      padding-right:max(16px, env(safe-area-inset-right, 0px));
-      overflow-x:hidden;
-    }
-    h1,h2,p{margin:0}
-    .sr-only{position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap}
-    #confetti{position:fixed; inset:0; width:100%; height:100%; pointer-events:none; z-index:50}
-    .stage{position:relative; z-index:1; max-width:1060px; margin-inline:auto}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{overflow-x:hidden; -webkit-text-size-adjust:100%}
+@supports (overflow:clip){ html,body{overflow-x:clip} }
+body{
+  margin:0; min-height:100dvh;
+  background:var(--bg);
+  background-image:radial-gradient(var(--bg-dot) 1.6px, transparent 1.8px);
+  background-size:22px 22px;
+  color:var(--ink); font-family:var(--body); font-size:16px; line-height:1.6;
+  padding-block:28px 0;
+  padding-left:max(16px, env(safe-area-inset-left, 0px));
+  padding-right:max(16px, env(safe-area-inset-right, 0px));
+  overflow-x:hidden;
+}
+h1,h2,p{margin:0}
+.sr-only{position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap}
+#confetti{position:fixed; inset:0; width:100%; height:100%; pointer-events:none; z-index:50}
+.stage{position:relative; z-index:1; max-width:1060px; margin-inline:auto}
 
-    .rise{animation:rise .8s cubic-bezier(.34,1.4,.64,1) backwards; animation-delay:calc(var(--i,0) * 90ms + 80ms)}
+.rise{animation:rise .8s cubic-bezier(.34,1.4,.64,1) backwards; animation-delay:calc(var(--i,0) * 90ms + 80ms)}
 
-    .gate{position:relative; display:grid; grid-template-columns:minmax(0,1.12fr) minmax(0,.88fr); gap:clamp(28px,5vw,64px); align-items:center; min-height:calc(100dvh - 190px)}
-    .gate.out{animation:fadeOut .45s ease both}
-    .hero{position:relative; display:flex; flex-direction:column; align-items:flex-start; gap:10px; min-width:0}
+.gate{position:relative; display:grid; grid-template-columns:minmax(0,1.12fr) minmax(0,.88fr); gap:clamp(28px,5vw,64px); align-items:center; min-height:calc(100dvh - 190px)}
+.gate.out{animation:fadeOut .45s ease both}
+.hero{position:relative; display:flex; flex-direction:column; align-items:flex-start; gap:10px; min-width:0}
 
-    .tag{display:inline-flex; align-items:center; gap:8px; font-weight:700; font-size:.85rem; letter-spacing:.08em; text-transform:uppercase; color:var(--on-pop); background:var(--mint); border:3px solid var(--line); border-radius:999px; padding:5px 16px 5px 12px; box-shadow:3px 3px 0 var(--hard); transform:rotate(-3deg)}
-    .tag svg{width:18px; height:18px; fill:var(--yellow); stroke:var(--on-pop); stroke-width:1.6; stroke-linejoin:round}
+.tag{display:inline-flex; align-items:center; gap:8px; font-weight:700; font-size:.85rem; letter-spacing:.08em; text-transform:uppercase; color:var(--on-pop); background:var(--mint); border:3px solid var(--line); border-radius:999px; padding:5px 16px 5px 12px; box-shadow:3px 3px 0 var(--hard); transform:rotate(-3deg)}
+.tag svg{width:18px; height:18px; fill:var(--yellow); stroke:var(--on-pop); stroke-width:1.6; stroke-linejoin:round}
 
-    .big{display:flex; width:max-content; max-width:100%; font-family:var(--display); font-weight:800; font-size:clamp(5.6rem,21vw,11.5rem); line-height:.88; letter-spacing:-.02em; margin:8px 0 6px; cursor:pointer; user-select:none; -webkit-tap-highlight-color:transparent; transform-origin:0 100%; transform:rotate(-4deg); animation:sway 6s ease-in-out 1.6s infinite}
-    .big .ch{display:inline-block; color:var(--c); -webkit-text-stroke:3px var(--line); paint-order:stroke fill; text-shadow:5px 6px 0 var(--hard); animation:bounceIn .9s cubic-bezier(.34,1.56,.64,1) backwards; animation-delay:calc(.15s + var(--i) * 90ms)}
+.big{display:flex; width:max-content; max-width:100%; font-family:var(--display); font-weight:800; font-size:clamp(5.6rem,21vw,11.5rem); line-height:.88; letter-spacing:-.02em; margin:8px 0 6px; cursor:pointer; user-select:none; -webkit-tap-highlight-color:transparent; transform-origin:0 100%; transform:rotate(-4deg); animation:sway 6s ease-in-out 1.6s infinite}
+.big .ch{display:inline-block; color:var(--c); -webkit-text-stroke:3px var(--line); paint-order:stroke fill; text-shadow:5px 6px 0 var(--hard); animation:bounceIn .9s cubic-bezier(.34,1.56,.64,1) backwards; animation-delay:calc(.15s + var(--i) * 90ms)}
 
-    h1{font-family:var(--display); font-weight:700; font-size:clamp(1.7rem,4.2vw,2.5rem); line-height:1.22; text-wrap:balance; max-width:18ch}
-    h1 mark{display:inline-block; color:var(--on-pop); background:var(--yellow); padding:0 .22em; border-radius:10px; transform:rotate(-1.2deg); animation:wipe .8s cubic-bezier(.2,.8,.2,1) .9s backwards}
-    .sub{color:var(--ink-soft); font-size:1.05rem; max-width:34ch}
+h1{font-family:var(--display); font-weight:700; font-size:clamp(1.7rem,4.2vw,2.5rem); line-height:1.22; text-wrap:balance; max-width:18ch}
+h1 mark{display:inline-block; color:var(--on-pop); background:var(--yellow); padding:0 .22em; border-radius:10px; transform:rotate(-1.2deg); animation:wipe .8s cubic-bezier(.2,.8,.2,1) .9s backwards}
+.sub{color:var(--ink-soft); font-size:1.05rem; max-width:34ch}
 
-    .sticker{position:absolute; width:var(--w,44px); height:var(--w,44px); color:var(--c); fill:currentColor; stroke:var(--line); stroke-width:1.6; stroke-linejoin:round; pointer-events:none; animation:bob 5s ease-in-out infinite; animation-delay:var(--d,0s)}
-    .st-star{top:-14px; right:4%; --w:50px; --c:var(--yellow)}
-    .st-heart{top:42%; right:-3%; --w:40px; --c:var(--pink); --d:-1.5s}
-    .st-spark{bottom:-6px; right:22%; --w:34px; --c:var(--mint); --d:-3s}
+.sticker{position:absolute; width:var(--w,44px); height:var(--w,44px); color:var(--c); fill:currentColor; stroke:var(--line); stroke-width:1.6; stroke-linejoin:round; pointer-events:none; animation:bob 5s ease-in-out infinite; animation-delay:var(--d,0s)}
+.st-star{top:-14px; right:4%; --w:50px; --c:var(--yellow)}
+.st-heart{top:42%; right:-3%; --w:40px; --c:var(--pink); --d:-1.5s}
+.st-spark{bottom:-6px; right:22%; --w:34px; --c:var(--mint); --d:-3s}
 
-    .login{position:relative; background:var(--card); border:3px solid var(--line); border-radius:24px; padding:24px; box-shadow:9px 9px 0 var(--hard); display:flex; flex-direction:column; gap:16px; transform:rotate(1deg)}
-    .login h2{display:flex; align-items:center; gap:10px; font-family:var(--display); font-weight:800; font-size:1.7rem; line-height:1.1}
-    .login h2 svg{width:30px; height:30px; fill:var(--pink); stroke:var(--line); stroke-width:1.6; stroke-linejoin:round}
-    .st-flower{top:-30px; right:-16px; --w:60px; --c:var(--blue)}
-    .fields{display:flex; flex-direction:column; gap:14px}
-    .fields.shake{animation:shake .45s ease}
-    .field{display:flex; flex-direction:column; gap:6px; min-width:0}
-    .field label{font-size:.78rem; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--ink-soft)}
-    .field input{width:100%; font:inherit; font-size:1rem; font-weight:500; color:var(--ink); background:var(--field); border:2.5px solid var(--line); border-radius:14px; padding:13px 15px; transition:box-shadow .15s, transform .15s}
-    .field input::placeholder{color:var(--ink-soft); opacity:.65}
-    .field input:focus{outline:none; transform:translate(-2px,-2px); box-shadow:4px 4px 0 var(--pink)}
-    .field input[aria-invalid="true"]{border-color:var(--error)}
-    .msg{min-height:1.4em; font-size:.92rem; font-weight:500; color:var(--error)}
+.login{position:relative; background:var(--card); border:3px solid var(--line); border-radius:24px; padding:24px; box-shadow:9px 9px 0 var(--hard); display:flex; flex-direction:column; gap:16px; transform:rotate(1deg)}
+.login h2{display:flex; align-items:center; gap:10px; font-family:var(--display); font-weight:800; font-size:1.7rem; line-height:1.1}
+.login h2 svg{width:30px; height:30px; fill:var(--pink); stroke:var(--line); stroke-width:1.6; stroke-linejoin:round}
+.st-flower{top:-30px; right:-16px; --w:60px; --c:var(--blue)}
+.fields{display:flex; flex-direction:column; gap:14px}
+.fields.shake{animation:shake .45s ease}
+.field{display:flex; flex-direction:column; gap:6px; min-width:0}
+.field label{font-size:.78rem; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--ink-soft)}
+.field input{width:100%; font:inherit; font-size:1rem; font-weight:500; color:var(--ink); background:var(--field); border:2.5px solid var(--line); border-radius:14px; padding:13px 15px; transition:box-shadow .15s, transform .15s}
+.field input::placeholder{color:var(--ink-soft); opacity:.65}
+.field input:focus{outline:none; transform:translate(-2px,-2px); box-shadow:4px 4px 0 var(--pink)}
+.field input[aria-invalid="true"]{border-color:var(--error)}
+.msg{min-height:1.4em; font-size:.92rem; font-weight:500; color:var(--error)}
 
-    .btn{display:inline-flex; align-items:center; justify-content:center; gap:10px; font-family:var(--display); font-weight:800; font-size:1.2rem; line-height:1.2; padding:12px 26px; color:var(--on-pop); background:var(--pink); border:3px solid var(--line); border-radius:16px; box-shadow:5px 5px 0 var(--hard); cursor:pointer; transition:transform .12s, box-shadow .12s}
-    .btn.block{width:100%}
-    .btn:hover{transform:translate(-2px,-2px); box-shadow:7px 7px 0 var(--hard)}
-    .btn:active{transform:translate(3px,3px); box-shadow:2px 2px 0 var(--hard)}
-    .btn:focus-visible{outline:3px solid var(--blue); outline-offset:4px}
-    .btn:disabled{opacity:.75; cursor:progress; transform:translate(3px,3px); box-shadow:2px 2px 0 var(--hard)}
-    .btn.alt{background:var(--yellow)}
-    .btn.mint{background:var(--mint)}
-    .btn svg{width:22px; height:22px; fill:var(--on-pop)}
+.btn{display:inline-flex; align-items:center; justify-content:center; gap:10px; font-family:var(--display); font-weight:800; font-size:1.2rem; line-height:1.2; padding:12px 26px; color:var(--on-pop); background:var(--pink); border:3px solid var(--line); border-radius:16px; box-shadow:5px 5px 0 var(--hard); cursor:pointer; transition:transform .12s, box-shadow .12s}
+.btn.block{width:100%}
+.btn:hover{transform:translate(-2px,-2px); box-shadow:7px 7px 0 var(--hard)}
+.btn:active{transform:translate(3px,3px); box-shadow:2px 2px 0 var(--hard)}
+.btn:focus-visible{outline:3px solid var(--blue); outline-offset:4px}
+.btn:disabled{opacity:.75; cursor:progress; transform:translate(3px,3px); box-shadow:2px 2px 0 var(--hard)}
+.btn.alt{background:var(--yellow)}
+.btn.mint{background:var(--mint)}
+.btn svg{width:22px; height:22px; fill:var(--on-pop)}
 
-    .reveal{display:grid; justify-items:center; align-content:center; min-height:calc(100dvh - 190px); padding-top:90px}
-    .envelope{width:min(88vw,400px); height:auto; overflow:visible; animation:drop .9s cubic-bezier(.34,1.56,.64,1) backwards, wiggle .7s ease .9s}
-    .reveal.leaving .envelope{animation:envOut .6s ease-in both}
-    .es{stroke:var(--line); stroke-width:5; stroke-linejoin:round}
-    .e-shadow{fill:var(--hard); opacity:.25}
-    .e-back{fill:var(--yellow)}
-    .e-front{fill:var(--pink)}
-    .e-flap{fill:var(--mint)}
-    .e-paper{fill:var(--paper); stroke:var(--line); stroke-width:4; stroke-linejoin:round}
-    .e-rule{stroke:var(--paper-line); stroke-width:3; stroke-linecap:round}
-    .e-name{font-family:var(--hand); font-weight:700; fill:var(--paper-accent); text-anchor:middle}
-    .e-paper-g{transition:transform 1s cubic-bezier(.34,1.3,.64,1) .35s}
-    .open .e-paper-g{transform:translateY(-100px)}
-    .flap-closed{transform-origin:0 0; transition:transform .3s ease-in, opacity 0s .3s}
-    .flap-open{transform-origin:0 0; transform:scaleY(0); opacity:0; transition:transform .4s ease-out .3s, opacity 0s .3s}
-    .open .flap-closed{transform:scaleY(0); opacity:0}
-    .open .flap-open{transform:scaleY(-1); opacity:1}
-    .seal{transform-origin:0 0; transition:transform .45s ease, opacity .45s ease}
-    .seal circle{fill:var(--pink); stroke:var(--line); stroke-width:4}
-    .broken .seal{transform:scale(1.8) rotate(25deg); opacity:0}
+.reveal{display:grid; justify-items:center; align-content:center; min-height:calc(100dvh - 190px); padding-top:90px}
+.envelope{width:min(88vw,400px); height:auto; overflow:visible; animation:drop .9s cubic-bezier(.34,1.56,.64,1) backwards, wiggle .7s ease .9s}
+.reveal.leaving .envelope{animation:envOut .6s ease-in both}
+.es{stroke:var(--line); stroke-width:5; stroke-linejoin:round}
+.e-shadow{fill:var(--hard); opacity:.25}
+.e-back{fill:var(--yellow)}
+.e-front{fill:var(--pink)}
+.e-flap{fill:var(--mint)}
+.e-paper{fill:var(--paper); stroke:var(--line); stroke-width:4; stroke-linejoin:round}
+.e-rule{stroke:var(--paper-line); stroke-width:3; stroke-linecap:round}
+.e-name{font-family:var(--hand); font-weight:700; fill:var(--paper-accent); text-anchor:middle}
+.e-paper-g{transition:transform 1s cubic-bezier(.34,1.3,.64,1) .35s}
+.open .e-paper-g{transform:translateY(-100px)}
+.flap-closed{transform-origin:0 0; transition:transform .3s ease-in, opacity 0s .3s}
+.flap-open{transform-origin:0 0; transform:scaleY(0); opacity:0; transition:transform .4s ease-out .3s, opacity 0s .3s}
+.open .flap-closed{transform:scaleY(0); opacity:0}
+.open .flap-open{transform:scaleY(-1); opacity:1}
+.seal{transform-origin:0 0; transition:transform .45s ease, opacity .45s ease}
+.seal circle{fill:var(--pink); stroke:var(--line); stroke-width:4}
+.seal path{fill:#fff}
+.broken .seal{transform:scale(1.8) rotate(25deg); opacity:0}
 
-    .letter-wrap{max-width:640px; margin-inline:auto; padding:28px 6px 6px}
-    .photo{position:relative; width:min(100%,340px); margin:0 auto 38px; padding:10px; background:var(--paper); border:3px solid var(--line); border-radius:14px; box-shadow:8px 8px 0 var(--hard); transform:rotate(1.2deg); animation:popIn .9s cubic-bezier(.34,1.45,.64,1) .05s backwards}
-    .photo .frame{aspect-ratio:9/16; width:100%; max-width:100%; border-radius:6px; overflow:hidden; background:var(--bg-dot)}
-    .photo img{display:block; width:100%; height:100%; object-fit:cover}
-    .photo .tape{transform:rotate(3deg)}
-    .letter-wrap.out{animation:fadeOut .42s ease both}
-    .notebook{--lh:34px; position:relative; background-color:var(--paper); color:var(--paper-ink); border:3px solid var(--line); border-radius:16px; box-shadow:10px 10px 0 var(--hard); padding:var(--lh) 26px var(--lh) 76px;
-      background-image:
-        linear-gradient(90deg, transparent 56px, var(--paper-margin) 56px, var(--paper-margin) 58px, transparent 58px),
-        repeating-linear-gradient(to bottom, transparent 0, transparent calc(var(--lh) - 2px), var(--paper-line) calc(var(--lh) - 2px), var(--paper-line) var(--lh));
-      transform:rotate(-.8deg); animation:popIn .9s cubic-bezier(.34,1.45,.64,1) backwards}
-    .notebook:focus{outline:none}
-    .notebook::before{content:""; position:absolute; left:14px; top:0; bottom:0; width:26px; background:radial-gradient(circle, var(--bg) 0 6px, var(--line) 6.5px 8.5px, transparent 9px) 0 17px/26px 102px repeat-y}
-    .tape{position:absolute; top:-18px; left:50%; width:120px; height:34px; margin-left:-60px; background:repeating-linear-gradient(45deg, var(--yellow) 0 10px, #ffe97a 10px 20px); border:2.5px solid var(--line); transform:rotate(-3deg)}
-    .greeting{font-family:var(--hand); font-weight:700; font-size:1.7rem; line-height:calc(var(--lh) * 2); color:var(--paper-accent); overflow-wrap:anywhere; text-wrap:balance}
-    .text{display:block}
-    .text p{margin:0 0 var(--lh); font-family:var(--hand); font-weight:500; font-size:1.02rem; line-height:var(--lh); white-space:pre-line; overflow-wrap:anywhere}
-    .sign{font-family:var(--hand); font-weight:700; font-size:1.35rem; line-height:var(--lh); color:var(--paper-accent); text-align:right; white-space:pre-line; overflow-wrap:anywhere}
-    .line{animation:rise .8s cubic-bezier(.34,1.4,.64,1) backwards; animation-delay:calc(.55s + var(--i,0) * .33s)}
-    .actions{display:flex; flex-wrap:wrap; justify-content:center; gap:16px; margin-top:34px}
-    .actions .btn{animation:rise .8s cubic-bezier(.34,1.4,.64,1) 1.3s backwards}
+.letter-wrap{max-width:640px; margin-inline:auto; padding:28px 6px 6px}
+.photo{position:relative; width:min(100%,340px); margin:0 auto 38px; padding:10px; background:var(--paper); border:3px solid var(--line); border-radius:14px; box-shadow:8px 8px 0 var(--hard); transform:rotate(1.2deg); animation:popIn .9s cubic-bezier(.34,1.45,.64,1) .05s backwards}
+.photo .frame{aspect-ratio:9/16; width:100%; max-width:100%; border-radius:6px; overflow:hidden; background:var(--bg-dot)}
+.photo img{display:block; width:100%; height:100%; object-fit:cover}
+.photo .tape{transform:rotate(3deg)}
+.letter-wrap.out{animation:fadeOut .42s ease both}
+.notebook{--lh:34px; position:relative; background-color:var(--paper); color:var(--paper-ink); border:3px solid var(--line); border-radius:16px; box-shadow:10px 10px 0 var(--hard); padding:var(--lh) 26px var(--lh) 76px;
+  background-image:
+    linear-gradient(90deg, transparent 56px, var(--paper-margin) 56px, var(--paper-margin) 58px, transparent 58px),
+    repeating-linear-gradient(to bottom, transparent 0, transparent calc(var(--lh) - 2px), var(--paper-line) calc(var(--lh) - 2px), var(--paper-line) var(--lh));
+  transform:rotate(-.8deg); animation:popIn .9s cubic-bezier(.34,1.45,.64,1) backwards}
+.notebook:focus{outline:none}
+.notebook::before{content:""; position:absolute; left:14px; top:0; bottom:0; width:26px; background:radial-gradient(circle, var(--bg) 0 6px, var(--line) 6.5px 8.5px, transparent 9px) 0 17px/26px 102px repeat-y}
+.tape{position:absolute; top:-18px; left:50%; width:120px; height:34px; margin-left:-60px; background:repeating-linear-gradient(45deg, var(--yellow) 0 10px, #ffe97a 10px 20px); border:2.5px solid var(--line); transform:rotate(-3deg)}
+.greeting{font-family:var(--hand); font-weight:700; font-size:1.7rem; line-height:calc(var(--lh) * 2); color:var(--paper-accent); overflow-wrap:anywhere; text-wrap:balance}
+.text{display:block}
+.text p{margin:0 0 var(--lh); font-family:var(--hand); font-weight:500; font-size:1.02rem; line-height:var(--lh); white-space:pre-line; overflow-wrap:anywhere}
+.sign{font-family:var(--hand); font-weight:700; font-size:1.35rem; line-height:var(--lh); color:var(--paper-accent); text-align:right; white-space:pre-line; overflow-wrap:anywhere}
+.line{animation:rise .8s cubic-bezier(.34,1.4,.64,1) backwards; animation-delay:calc(.55s + var(--i,0) * .33s)}
+.actions{display:flex; flex-wrap:wrap; justify-content:center; gap:16px; margin-top:34px}
+.actions .btn{animation:rise .8s cubic-bezier(.34,1.4,.64,1) 1.3s backwards}
 
-    .ribbons{position:relative; margin-top:46px; padding-block:30px 40px; pointer-events:none}
-    .ribbon{width:120vw; margin-left:calc(50% - 60vw); overflow:hidden; border-block:3px solid var(--line); color:var(--on-pop)}
-    .ribbon.a{background:var(--yellow); transform:rotate(-2deg)}
-    .ribbon.b{background:var(--pink); transform:rotate(1.4deg); margin-top:-12px}
-    .track{display:flex; width:max-content; animation:marquee 34s linear infinite}
-    .ribbon.b .track{animation-direction:reverse}
-    .group{display:flex; align-items:center; flex:none; gap:26px; padding:9px 13px; font-family:var(--display); font-weight:800; font-size:1.25rem; line-height:1.2; text-transform:uppercase; white-space:nowrap}
-    .group svg{width:22px; height:22px; fill:var(--on-pop); flex:none}
+.ribbons{position:relative; margin-top:46px; padding-block:30px 40px; pointer-events:none}
+.ribbon{width:120vw; margin-left:calc(50% - 60vw); overflow:hidden; border-block:3px solid var(--line); color:var(--on-pop)}
+.ribbon.a{background:var(--yellow); transform:rotate(-2deg)}
+.ribbon.b{background:var(--pink); transform:rotate(1.4deg); margin-top:-12px}
+.track{display:flex; width:max-content; animation:marquee 34s linear infinite}
+.ribbon.b .track{animation-direction:reverse}
+.group{display:flex; align-items:center; flex:none; gap:26px; padding:9px 13px; font-family:var(--display); font-weight:800; font-size:1.25rem; line-height:1.2; text-transform:uppercase; white-space:nowrap}
+.group svg{width:22px; height:22px; fill:var(--on-pop); flex:none}
 
-    @keyframes rise{from{opacity:0; transform:translateY(18px)}}
-    @keyframes fadeOut{to{opacity:0; transform:translateY(-14px) scale(.97)}}
-    @keyframes bounceIn{from{opacity:0; transform:translateY(-70px) scale(.6) rotate(-14deg)}}
-    @keyframes sway{0%,100%{transform:rotate(-4deg)} 50%{transform:rotate(-1.5deg)}}
-    @keyframes wipe{from{clip-path:inset(0 100% 0 0)}}
-    @keyframes bob{0%,100%{transform:translateY(0) rotate(-6deg)} 50%{transform:translateY(-9px) rotate(8deg)}}
-    @keyframes shake{0%,100%{transform:translateX(0)} 20%{transform:translateX(-8px)} 40%{transform:translateX(7px)} 60%{transform:translateX(-5px)} 80%{transform:translateX(3px)}}
-    @keyframes drop{from{opacity:0; transform:translateY(-120px) rotate(-8deg)}}
-    @keyframes wiggle{0%,100%{transform:rotate(0)} 25%{transform:rotate(-4deg)} 50%{transform:rotate(4deg)} 75%{transform:rotate(-2deg)}}
-    @keyframes envOut{to{opacity:0; transform:translateY(90px) scale(.8) rotate(6deg)}}
-    @keyframes popIn{from{opacity:0; transform:translateY(60px) scale(.88) rotate(-5deg)}}
-    @keyframes marquee{to{transform:translateX(-50%)}}
+@keyframes rise{from{opacity:0; transform:translateY(18px)}}
+@keyframes fadeOut{to{opacity:0; transform:translateY(-14px) scale(.97)}}
+@keyframes bounceIn{from{opacity:0; transform:translateY(-70px) scale(.6) rotate(-14deg)}}
+@keyframes sway{0%,100%{transform:rotate(-4deg)} 50%{transform:rotate(-1.5deg)}}
+@keyframes wipe{from{clip-path:inset(0 100% 0 0)}}
+@keyframes bob{0%,100%{transform:translateY(0) rotate(-6deg)} 50%{transform:translateY(-9px) rotate(8deg)}}
+@keyframes shake{0%,100%{transform:translateX(0)} 20%{transform:translateX(-8px)} 40%{transform:translateX(7px)} 60%{transform:translateX(-5px)} 80%{transform:translateX(3px)}}
+@keyframes drop{from{opacity:0; transform:translateY(-120px) rotate(-8deg)}}
+@keyframes wiggle{0%,100%{transform:rotate(0)} 25%{transform:rotate(-4deg)} 50%{transform:rotate(4deg)} 75%{transform:rotate(-2deg)}}
+@keyframes envOut{to{opacity:0; transform:translateY(90px) scale(.8) rotate(6deg)}}
+@keyframes popIn{from{opacity:0; transform:translateY(60px) scale(.88) rotate(-5deg)}}
+@keyframes marquee{to{transform:translateX(-50%)}}
 
-    /* ===== Trang trí thêm ===== */
-    body::before{content:""; position:fixed; inset:0; z-index:0; pointer-events:none;
-      background:
-        radial-gradient(380px 380px at 0% 0%, color-mix(in srgb, var(--pink) 30%, transparent), transparent 70%),
-        radial-gradient(440px 440px at 100% 8%, color-mix(in srgb, var(--yellow) 34%, transparent), transparent 70%),
-        radial-gradient(480px 480px at 100% 100%, color-mix(in srgb, var(--mint) 30%, transparent), transparent 70%),
-        radial-gradient(420px 420px at 0% 100%, color-mix(in srgb, var(--blue) 30%, transparent), transparent 70%)}
-    .petals{position:fixed; inset:0; z-index:0; pointer-events:none; overflow:hidden}
-    .petal{position:absolute; top:-50px; left:var(--x); width:var(--s); height:var(--s); fill:var(--c); stroke:var(--line); stroke-width:1.5; stroke-linejoin:round; opacity:.9; animation:fall var(--dur) linear var(--dl) infinite}
-    @keyframes fall{0%{transform:translate3d(0,-8vh,0) rotate(0deg)} 50%{transform:translate3d(var(--dx),55vh,0) rotate(190deg)} 100%{transform:translate3d(0,112vh,0) rotate(380deg)}}
-    .hint{margin:2px 2px 0; font-size:.8rem; line-height:1.4; color:var(--ink-soft)}
-    .squiggle{display:block; width:min(220px,60%); height:14px; margin-top:2px; fill:none; stroke:var(--pink); stroke-width:4; stroke-linecap:round; animation:wipe 1s cubic-bezier(.2,.8,.2,1) 1.3s backwards}
-    .st-star2{bottom:6%; left:-4%; --w:38px; --c:var(--blue); --d:-2s}
-    .st-heart2{top:-6px; left:44%; --w:30px; --c:var(--mint); --d:-4s}
-    .st-heart3{bottom:-24px; left:-18px; --w:46px; --c:var(--pink); --d:-1s}
-    .st-spark2{bottom:-14px; right:26px; --w:34px; --c:var(--yellow); --d:-2.5s}
-    .nb-st{z-index:2}
-    .nb-flower{top:-34px; right:-18px; --w:62px; --c:var(--pink)}
-    .nb-heart{bottom:-26px; left:9%; --w:46px; --c:var(--pink); --d:-1.2s}
-    .nb-star{bottom:-22px; right:11%; --w:40px; --c:var(--yellow); --d:-2.6s}
-    .nb-spark{top:30%; right:-24px; --w:34px; --c:var(--mint); --d:-3.4s}
-    .ph-flower{bottom:-22px; right:-20px; --w:54px; --c:var(--blue); z-index:2}
-    .ph-heart{top:-16px; left:-20px; --w:38px; --c:var(--pink); --d:-2s; z-index:2}
-    .tape.t2{top:auto; bottom:-14px; left:auto; right:-34px; margin:0; width:96px; height:28px; transform:rotate(-38deg); opacity:.92}
-    .envelope-wrap{position:relative}
-    @media (prefers-reduced-motion: reduce){ .petals{display:none} }
 
-    @media (max-width:860px){
-      .gate{grid-template-columns:1fr; min-height:0; gap:34px}
-      .st-heart{right:2%}
-      .login{transform:rotate(.6deg)}
-      .st-flower{right:6px}
-    }
-    @media (max-width:480px){
-      .notebook{padding:var(--lh) 18px var(--lh) 66px}
-      .notebook::before{left:10px}
-      .notebook{background-image:
-        linear-gradient(90deg, transparent 48px, var(--paper-margin) 48px, var(--paper-margin) 50px, transparent 50px),
-        repeating-linear-gradient(to bottom, transparent 0, transparent calc(var(--lh) - 2px), var(--paper-line) calc(var(--lh) - 2px), var(--paper-line) var(--lh))}
-      .greeting{font-size:1.5rem}
-    }
-    @media (prefers-reduced-motion: reduce){
-      *,*::before,*::after{animation-duration:.01ms !important; animation-iteration-count:1 !important; animation-delay:0s !important; transition-duration:.01ms !important; transition-delay:0s !important}
-      .track{animation:none !important}
-    }
-  </style>
+/* ===== Trang trí thêm ===== */
+body::before{content:""; position:fixed; inset:0; z-index:0; pointer-events:none;
+  background:
+    radial-gradient(380px 380px at 0% 0%, color-mix(in srgb, var(--pink) 30%, transparent), transparent 70%),
+    radial-gradient(440px 440px at 100% 8%, color-mix(in srgb, var(--yellow) 34%, transparent), transparent 70%),
+    radial-gradient(480px 480px at 100% 100%, color-mix(in srgb, var(--mint) 30%, transparent), transparent 70%),
+    radial-gradient(420px 420px at 0% 100%, color-mix(in srgb, var(--blue) 30%, transparent), transparent 70%)}
+.petals{position:fixed; inset:0; z-index:0; pointer-events:none; overflow:hidden}
+.petal{position:absolute; top:-50px; left:var(--x); width:var(--s); height:var(--s); fill:var(--c); stroke:var(--line); stroke-width:1.5; stroke-linejoin:round; opacity:.9; animation:fall var(--dur) linear var(--dl) infinite}
+@keyframes fall{0%{transform:translate3d(0,-8vh,0) rotate(0deg)} 50%{transform:translate3d(var(--dx),55vh,0) rotate(190deg)} 100%{transform:translate3d(0,112vh,0) rotate(380deg)}}
+.hint{margin:2px 2px 0; font-size:.8rem; line-height:1.4; color:var(--ink-soft)}
+.squiggle{display:block; width:min(220px,60%); height:14px; margin-top:2px; fill:none; stroke:var(--pink); stroke-width:4; stroke-linecap:round; animation:wipe 1s cubic-bezier(.2,.8,.2,1) 1.3s backwards}
+.st-star2{bottom:6%; left:-4%; --w:38px; --c:var(--blue); --d:-2s}
+.st-heart2{top:-6px; left:44%; --w:30px; --c:var(--mint); --d:-4s}
+.st-heart3{bottom:-24px; left:-18px; --w:46px; --c:var(--pink); --d:-1s}
+.st-spark2{bottom:-14px; right:26px; --w:34px; --c:var(--yellow); --d:-2.5s}
+.nb-st{z-index:2}
+.nb-flower{top:-34px; right:-18px; --w:62px; --c:var(--pink)}
+.nb-heart{bottom:-26px; left:9%; --w:46px; --c:var(--pink); --d:-1.2s}
+.nb-star{bottom:-22px; right:11%; --w:40px; --c:var(--yellow); --d:-2.6s}
+.nb-spark{top:30%; right:-24px; --w:34px; --c:var(--mint); --d:-3.4s}
+.ph-flower{bottom:-22px; right:-20px; --w:54px; --c:var(--blue); z-index:2}
+.ph-heart{top:-16px; left:-20px; --w:38px; --c:var(--pink); --d:-2s; z-index:2}
+.tape.t2{top:auto; bottom:-14px; left:auto; right:-34px; margin:0; width:96px; height:28px; transform:rotate(-38deg); opacity:.92}
+.envelope-wrap{position:relative}
+@media (prefers-reduced-motion: reduce){ .petals{display:none} }
+
+@media (max-width:860px){
+  .gate{grid-template-columns:1fr; min-height:0; gap:34px}
+  .st-heart{right:2%}
+  .login{transform:rotate(.6deg)}
+  .st-flower{right:6px}
+}
+@media (max-width:480px){
+  .notebook{padding:var(--lh) 18px var(--lh) 66px}
+  .notebook::before{left:10px}
+  .notebook{background-image:
+    linear-gradient(90deg, transparent 48px, var(--paper-margin) 48px, var(--paper-margin) 50px, transparent 50px),
+    repeating-linear-gradient(to bottom, transparent 0, transparent calc(var(--lh) - 2px), var(--paper-line) calc(var(--lh) - 2px), var(--paper-line) var(--lh))}
+  .greeting{font-size:1.5rem}
+}
+@media (prefers-reduced-motion: reduce){
+  *,*::before,*::after{animation-duration:.01ms !important; animation-iteration-count:1 !important; animation-delay:0s !important; transition-duration:.01ms !important; transition-delay:0s !important}
+  .track{animation:none !important}
+}
+</style>
 </head>
 <body>
-
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
   <symbol id="i-petal" viewBox="0 0 24 24"><path d="M12 2C18 7 19 14 12 22C5 14 6 7 12 2Z"/></symbol>
   <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 2l2.9 6.6 7.1.7-5.4 4.8 1.6 7L12 17.3l-6.2 3.8 1.6-7L2 9.3l7.1-.7z"/></symbol>
@@ -311,6 +312,584 @@
 
 </main>
 
-<script type="module" src="./main.js"></script>
+<script>
+(() => {
+'use strict';
+
+const LETTERS_TEXT = `
+
+=== Nguyễn Diệu Anh | 06/10/2009
+Gửi Diệu Anh,
+
+Nhân ngày 20/10, tụi mình chỉ muốn nói rằng lớp sẽ nhạt đi nhiều nếu thiếu tiếng cười của bạn.
+
+Chúc Diệu Anh luôn rạng rỡ như vậy, và mọi nỗ lực của năm cuối cấp đều có kết quả thật đẹp.
+
+-- Các chàng trai lớp 12 Anh 2
+
+=== Nguyễn Việt Anh | 08/05/2009
+Gửi Việt Anh thân mến,
+
+Năm cuối cấp nhiều áp lực, nhưng bạn vẫn luôn bình tĩnh và nhẹ nhàng với mọi người. Tụi mình rất quý điều đó.
+
+Chúc bạn ngày 20/10 thật vui, và sau này đi đến đâu cũng gặp được những người tử tế như bạn.
+
+-- Các chàng trai lớp 12 Anh 2
+
+=== Phạm Hải Anh | 31/03/2009
+Hải Anh ơi,
+
+Chúc mừng ngày 20/10! Mong bạn có thật nhiều ngày thảnh thơi giữa những buổi ôn thi dài dằng dặc.
+
+Hy vọng bạn luôn tự tin vào bản thân, vì bạn giỏi hơn những gì bạn nghĩ đấy.
+
+-- Các chàng trai lớp 12 Anh 2
+
+=== Phạm Thị Hồng Anh | 03/12/2009
+Gửi Hồng Anh,
+
+Hôm nay là ngày của các bạn nữ, nên tụi mình muốn dành riêng cho bạn một lời chúc thật chân thành.
+
+Chúc Hồng Anh luôn khỏe mạnh, ăn ngon ngủ yên, và có một tương lai bước vào thật suôn sẻ.
+
+-- Các chàng trai lớp 12 Anh 2
+
+=== Phạm Thị Quỳnh Anh | 14/01/2009
+Quỳnh Anh thân mến,
+
+Cảm ơn bạn vì những lúc giúp đỡ cả lớp mà chẳng cần ai nhờ. Những điều nhỏ ấy thật đáng quý.
+
+Chúc bạn 20/10 ngập tràn niềm vui và những bất ngờ dễ thương.
+
+-- Các chàng trai lớp 12 Anh 2
+
+=== Vũ Minh Ánh | 24/09/2009
+Gửi Minh Ánh,
+
+Tên bạn có chữ Ánh, và bạn đúng là người mang đến ánh sáng cho lớp mỗi ngày.
+
+Chúc Minh Ánh luôn tỏa sáng theo cách riêng của mình, trong học tập lẫn cuộc sống.
+
+-- Các chàng trai lớp 12 Anh 2
+
+=== Trần Minh Châu | 10/04/2009
+Minh Châu à,
+
+Lớp mình có bạn học giỏi, bạn vui tính, và có bạn khiến ai ở cạnh cũng thấy dễ chịu. Bạn thuộc nhóm cuối cùng đó.
+
+Chúc bạn 20/10 vui vẻ, và mong mọi điều bạn mong đợi sẽ sớm thành hiện thực.
+
+-- Các chàng trai lớp 12 Anh 2
+
+=== Nguyễn Thị Ngân Chi | 07/10/2009
+Gửi Ngân Chi,
+
+Năm học này sẽ qua rất nhanh, nên tụi mình muốn nhân dịp 20/10 nói lời cảm ơn vì bạn đã ở đây cùng lớp.
+
+Chúc Ngân Chi mạnh mẽ, nhiều may mắn, và luôn có người bên cạnh khi cần.
+
+-- Các chàng trai lớp 12 Anh 2
+
+=== Trịnh Linh Chi | 03/01/2009
+Linh Chi thân yêu,
+
+Chúc bạn một ngày 20/10 thật nhẹ nhàng, không bài tập, không kiểm tra, chỉ có niềm vui.
+
+Mong những ước mơ của bạn lớn dần theo từng ngày, và bạn đủ dũng cảm để theo đuổi chúng.
+
+-- Các chàng trai lớp 12 Anh 2
+
+=== Trần Thùy Dung | 13/12/2009
+Gửi Thùy Dung,
+
+Bạn có sự dịu dàng khiến không khí lớp bớt căng thẳng những lúc thi cử. Cảm ơn bạn vì điều đó.
+
+Chúc Thùy Dung hạnh phúc, bình yên, và luôn được yêu thương nhiều như bạn xứng đáng.
+
+-- Các chàng trai lớp 12 Anh 2
+
+=== Nguyễn Thu Giang | 21/01/2009
+Thu Giang ơi,
+
+20/10 đến rồi, tụi mình xin gửi tới bạn một lời chúc nho nhỏ nhưng rất thật lòng.
+
+Mong bạn luôn giữ được sự hồn nhiên, dù sau này bước vào môi trường mới đầy bận rộn.
+
+-- Các chàng trai lớp 12 Anh 2
+
+=== Phùng Thị Ngọc Hà | 29/09/2009
+Gửi Ngọc Hà,
+
+Ngọc Hà là người luôn làm mọi việc cẩn thận, và tụi mình học được nhiều từ sự chăm chỉ ấy.
+
+Chúc bạn ngày 20/10 vui vẻ, đủ sức khỏe để chạy hết chặng nước rút này và đạt điều mình muốn.
+
+-- Các chàng trai lớp 12 Anh 2
+
+=== Lê Gia Hân | 12/06/2009
+Gia Hân thân mến,
+
+Chúc bạn một ngày 20/10 thật xinh, thật vui, và chụp được thật nhiều bức ảnh đẹp cùng lớp.
+
+Mong rằng sau này nhìn lại, bạn sẽ thấy năm 12 là một năm đáng nhớ và đáng tự hào.
+
+-- Các chàng trai lớp 12 Anh 2
+
+=== Nguyễn Khánh Huyền | 24/02/2009
+Gửi Khánh Huyền,
+
+Tụi mình rất mến sự thẳng thắn và chân thành của bạn. Có bạn thì lớp luôn có những câu chuyện để cười.
+
+Chúc Khánh Huyền luôn bình an, may mắn và gặt hái được nhiều thành công phía trước.
+
+-- Các chàng trai lớp 12 Anh 2
+
+=== Cao Hà Linh | 26/02/2009
+Hà Linh ơi,
+
+Nhân ngày của các bạn nữ, chúc Hà Linh luôn tự tin, luôn được là chính mình, và luôn thấy bản thân thật đáng quý.
+
+Mong những cố gắng thầm lặng của bạn sẽ sớm được đền đáp.
+
+-- Các chàng trai lớp 12 Anh 2
+
+=== Cáp Thị Thùy Linh | 04/12/2009
+Gửi Thùy Linh,
+
+Chúc bạn 20/10 thật ấm áp, và những ngày sắp tới cũng nhẹ nhàng như một buổi sáng đẹp trời.
+
+Cảm ơn Thùy Linh vì đã luôn là một người bạn đáng tin của lớp.
+
+-- Các chàng trai lớp 12 Anh 2
+
+=== Hoàng Phương Linh | 27/11/2009
+Phương Linh thân mến,
+
+Bạn có nụ cười dễ lây, nên chỉ cần bạn vui thì cả bàn cũng vui theo. Hãy cứ giữ điều đó nhé.
+
+Chúc bạn ngày 20/10 trọn vẹn và một năm cuối cấp thật nhiều kỷ niệm đẹp.
+
+-- Các chàng trai lớp 12 Anh 2
+
+=== Nguyễn Phương Linh | 24/07/2009
+Gửi Phương Linh,
+
+Tụi mình biết bạn đã cố gắng rất nhiều, dù không phải lúc nào cũng kể ra. Hôm nay hãy cho phép mình nghỉ một chút nhé.
+
+Chúc bạn khỏe, vui, và luôn tin rằng mọi chuyện rồi sẽ ổn.
+
+-- Các chàng trai lớp 12 Anh 2
+
+=== Nguyễn Linh Nga | 13/10/2009
+Linh Nga ơi,
+
+20/10 vui vẻ nhé! Mong năm nay bạn có thật nhiều lý do để mỉm cười và ít lý do để lo lắng.
+
+Chúc Linh Nga mạnh khỏe, học tốt, và sớm được cầm trên tay thành quả mình mong đợi.
+
+-- Các chàng trai lớp 12 Anh 2
+
+=== Vũ Hà Ngân | 20/03/2009
+Gửi Hà Ngân,
+
+Giữa bao bộn bề của năm cuối cấp, tụi mình muốn bạn biết rằng bạn được quý mến nhiều hơn bạn tưởng.
+
+Chúc Hà Ngân 20/10 thật vui, và mọi con đường bạn chọn đều dẫn đến nơi bạn muốn.
+
+-- Các chàng trai lớp 12 Anh 2
+
+=== Đặng Phương Thảo | 10/09/2009
+Phương Thảo thân yêu,
+
+Chúc bạn một ngày 20/10 đầy hoa, đầy quà và đầy những lời chúc ngọt ngào.
+
+Mong bạn luôn giữ được sự kiên trì như hiện tại, vì nó sẽ đưa bạn đi rất xa.
+
+-- Các chàng trai lớp 12 Anh 2
+
+=== Nguyễn Phương Thảo | 20/02/2009
+Gửi Phương Thảo,
+
+Lớp mình có một người bạn biết lắng nghe, và đó chính là bạn. Cảm ơn vì những lần ấy.
+
+Chúc Phương Thảo bình an, hạnh phúc, và luôn gặp những điều dễ chịu trên đường đi.
+
+-- Các chàng trai lớp 12 Anh 2
+
+=== Nguyễn Thu Thảo | 22/11/2009
+Thu Thảo ơi,
+
+Tụi mình chúc bạn một ngày 20/10 thật thoải mái, được ngủ nướng, được ăn món mình thích và được nghe thật nhiều lời khen.
+
+Mong rằng mọi kỳ thi sắp tới đều đối xử thật tốt với bạn.
+
+-- Các chàng trai lớp 12 Anh 2
+
+=== Mai Phương Thuỳ | 05/01/2009
+Gửi Phương Thuỳ,
+
+Bạn là kiểu người làm việc gì cũng có tâm, và điều đó khiến tụi mình rất nể.
+
+Chúc Phương Thuỳ luôn xinh tươi, đầy năng lượng, và có những ngày tháng sắp tới thật rực rỡ.
+
+-- Các chàng trai lớp 12 Anh 2
+
+=== Trần Minh Trang | 22/09/2009
+Minh Trang thân mến,
+
+Chúc mừng 20/10! Mong bạn luôn tìm thấy niềm vui trong những điều giản dị như một buổi chiều cùng bạn bè.
+
+Hy vọng bạn sẽ đi thật xa, mà vẫn nhớ lớp 12 Anh 2 một cách vui vẻ.
+
+-- Các chàng trai lớp 12 Anh 2
+
+=== Nguyễn Nguyên Vũ | 24/06/2009
+Gửi Nguyên Vũ,
+
+Dù là 20/10 hay ngày thường, tụi mình vẫn thấy bạn là một người đặc biệt của lớp.
+
+Chúc bạn dũng cảm, nhiều may mắn, và luôn có một lý do để tự hào về bản thân.
+
+-- Các chàng trai lớp 12 Anh 2
+
+=== Vũ Đỗ Hà Vy | 15/09/2009
+Hà Vy ơi,
+
+Cảm ơn bạn vì những lần cười thật to cùng cả lớp, kể cả khi chuyện chẳng buồn cười lắm.
+
+Chúc Hà Vy ngày 20/10 thật hạnh phúc, và tương lai thật nhiều màu sắc.
+
+-- Các chàng trai lớp 12 Anh 2
+
+=== Lê Thị Hồng Phượng | 20/01/2004
+@ảnh: Lê Thị Hồng Phượng 20012004/ảnh.jpg
+@nhạc: Lê Thị Hồng Phượng 20012004/De Danh Khi Thuc Giac cut.m4a | 0 | 30
+Gửi chị,
+
+Ngày hôm nay chính là ngày 20/10, một ngày rất quan trọng đối với cô gái của em, em mong chị sẽ luôn mạnh mẽ, may mắn và thành công trên con đường sắp tới. Chúc chị Phương ngày 20 tháng 10 vui vẻ và hạnh phúc:>
+
+-- Anh Hào
+
+`;
+
+const $ = s => document.querySelector(s);
+const reduce = matchMedia('(prefers-reduced-motion: reduce)');
+const wait = ms => new Promise(r => setTimeout(r, reduce.matches ? 0 : ms));
+const pad = n => String(n).padStart(2, '0');
+const key = b => `${pad(b.d)}/${pad(b.m)}/${b.y}`;
+const norm = s => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/đ/g, 'd').replace(/\s+/g, ' ').trim();
+
+function parseDob(raw){
+  const s = (raw || '').trim();
+  const m = s.match(/^(\d{1,2})[\/.\-\s](\d{1,2})[\/.\-\s](\d{4})$/) || s.match(/^(\d{2})(\d{2})(\d{4})$/);
+  if (!m) return null;
+  const d = +m[1], mo = +m[2], y = +m[3];
+  const dt = new Date(y, mo - 1, d);
+  if (dt.getFullYear() !== y || dt.getMonth() !== mo - 1 || dt.getDate() !== d) return null;
+  if (dt > new Date() || y < 1900) return null;
+  return { d, m: mo, y };
+}
+
+const BOOK = new Map();
+(function loadLetters(){
+  const blocks = LETTERS_TEXT.split(/^[ \t]*===[ \t]*/m).slice(1);
+  blocks.forEach((raw, i) => {
+    const nl = raw.indexOf('\n');
+    const head = (nl < 0 ? raw : raw.slice(0, nl)).trim();
+    const rest = nl < 0 ? '' : raw.slice(nl + 1);
+    const parts = head.split('|').map(s => s.trim());
+    const name = parts[0], bd = parseDob(parts[1]);
+    if (!name || !bd){
+      console.warn(`Thư số ${i + 1}: dòng đầu phải có dạng "=== Họ và tên | dd/mm/yyyy". Đang là: "${head}"`);
+      return;
+    }
+    const lines = rest.split('\n'), meta = {};
+    while (lines.length){
+      const ln = lines[0].trim();
+      if (!ln){ lines.shift(); continue; }
+      const mm = ln.match(/^@([^:]+):\s*(.*)$/);
+      if (!mm) break;
+      meta[norm(mm[1])] = mm[2].trim(); lines.shift();
+    }
+    const fileUrl = v => (/^(https?:|data:|blob:)/i.test(v) || v.includes('%')) ? v : encodeURI(v);
+    let photo = '', music = null;
+    if (meta.anh) photo = fileUrl(meta.anh.split('|')[0].trim());
+    if (meta.nhac){
+      const mp = meta.nhac.split('|').map(x => x.trim());
+      const st = parseFloat(mp[1]), du = parseFloat(mp[2]);
+      music = { src: fileUrl(mp[0]), start: st >= 0 ? st : 0, dur: du >= 3 ? du : 15 };
+    }
+    const paras = lines.join('\n').split(/\n[ \t]*\n+/).map(s => s.trim()).filter(Boolean);
+    let sign = '';
+    if (paras.length && paras[paras.length - 1].startsWith('--')) sign = paras.pop().replace(/^--+\s*/, '');
+    let greeting = `Gửi ${name},`;
+    if (paras.length >= 2) greeting = paras.shift();
+    if (!paras.length) console.warn(`Thư của ${name} chưa có nội dung.`);
+    const k = norm(name) + '|' + key(bd);
+    if (BOOK.has(k)) console.warn(`Thư của ${name} (${key(bd)}) bị trùng, chỉ dùng thư đầu tiên.`);
+    else BOOK.set(k, { name, greeting, paragraphs: paras, sign, photo, music });
+  });
+})();
+
+(function petals(){
+  const box = $('#petals'); if (!box) return;
+  const syms = ['i-petal','i-petal','i-heart','i-flower','i-spark','i-star'];
+  const cols = ['var(--pink)','var(--yellow)','var(--mint)','var(--blue)'];
+  const r = (a, b) => a + Math.random() * (b - a);
+  for (let i = 0; i < 16; i++){
+    const s = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    s.setAttribute('class', 'petal');
+    const u = document.createElementNS('http://www.w3.org/2000/svg', 'use');
+    u.setAttribute('href', '#' + syms[i % syms.length]);
+    s.appendChild(u);
+    s.style.setProperty('--x', r(2, 96).toFixed(1) + '%');
+    s.style.setProperty('--s', r(16, 32).toFixed(0) + 'px');
+    s.style.setProperty('--dur', r(14, 26).toFixed(1) + 's');
+    s.style.setProperty('--dl', (-r(0, 26)).toFixed(1) + 's');
+    s.style.setProperty('--dx', (Math.random() < .5 ? -1 : 1) * r(30, 90).toFixed(0) + 'px');
+    s.style.setProperty('--c', cols[i % cols.length]);
+    box.appendChild(s);
+  }
+})();
+
+const COLORS = ['var(--pink)', 'var(--yellow)', 'var(--mint)', 'var(--blue)', 'var(--pink)'];
+const big = $('#big');
+'20/10'.split('').forEach((c, i) => {
+  const s = document.createElement('span');
+  s.className = 'ch'; s.textContent = c; s.setAttribute('aria-hidden', 'true');
+  s.style.setProperty('--i', i); s.style.setProperty('--c', COLORS[i]);
+  big.appendChild(s);
+});
+const WORDS = ['Chúc mừng 20/10', '12 Anh 2', 'Luôn rạng rỡ', 'Happy Women’s Day'];
+function fillTrack(el){
+  let html = '';
+  for (let g = 0; g < 2; g++){
+    html += '<div class="group">';
+    for (let r = 0; r < 3; r++) WORDS.forEach(w => { html += `<span>${w}</span><svg viewBox="0 0 24 24"><use href="#i-star"/></svg>`; });
+    html += '</div>';
+  }
+  el.innerHTML = html;
+}
+fillTrack($('#trackA')); fillTrack($('#trackB'));
+
+const cv = $('#confetti'), ctx = cv.getContext('2d');
+let W = innerWidth, H = innerHeight, raf = 0, last = 0;
+let palette = ['#ff4fa3', '#ffd83d', '#4fe0b5', '#7a95ff'];
+const pieces = [];
+function readPalette(){
+  const cs = getComputedStyle(document.documentElement);
+  const p = ['--pink', '--yellow', '--mint', '--blue'].map(k => cs.getPropertyValue(k).trim()).filter(Boolean);
+  if (p.length === 4) palette = p;
+}
+function resize(){
+  const dpr = Math.min(devicePixelRatio || 1, 2);
+  W = innerWidth; H = innerHeight;
+  cv.width = Math.round(W * dpr); cv.height = Math.round(H * dpr);
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+}
+function spawn(x, y, ang, sp){
+  if (pieces.length > 320) return;
+  pieces.push({ x, y, vx: Math.cos(ang) * sp, vy: Math.sin(ang) * sp, r: Math.random() * 6.28, vr: (Math.random() - .5) * 12,
+    s: 7 + Math.random() * 8, c: Math.floor(Math.random() * 4), k: Math.floor(Math.random() * 4), f: Math.random() * 6.28, vf: 4 + Math.random() * 6 });
+}
+function kick(){ if (!raf){ last = performance.now(); raf = requestAnimationFrame(frame); } }
+function burst(x, y, n){
+  if (reduce.matches) return;
+  for (let i = 0; i < n; i++) spawn(x, y, -Math.PI / 2 + (Math.random() - .5) * 2.6, 260 + Math.random() * 520);
+  kick();
+}
+function rain(ms){
+  if (reduce.matches) return;
+  const end = performance.now() + ms;
+  (function tick(){
+    if (performance.now() > end) return;
+    for (let i = 0; i < 3; i++) spawn(Math.random() * W, -12, Math.PI / 2 + (Math.random() - .5) * .6, 120 + Math.random() * 180);
+    kick(); requestAnimationFrame(tick);
+  })();
+}
+function drawPiece(p){
+  ctx.save();
+  ctx.translate(p.x, p.y); ctx.rotate(p.r); ctx.scale(1, Math.cos(p.f));
+  ctx.fillStyle = palette[p.c];
+  const s = p.s;
+  ctx.beginPath();
+  if (p.k === 0){ ctx.rect(-s / 2, -s / 4, s, s / 2); }
+  else if (p.k === 1){ ctx.arc(0, 0, s * .36, 0, 6.2832); }
+  else if (p.k === 2){
+    ctx.moveTo(0, s * .35);
+    ctx.bezierCurveTo(-s * .6, -s * .05, -s * .35, -s * .55, 0, -s * .2);
+    ctx.bezierCurveTo(s * .35, -s * .55, s * .6, -s * .05, 0, s * .35);
+  } else {
+    for (let i = 0; i < 10; i++){
+      const a = -Math.PI / 2 + i * Math.PI / 5, rad = i % 2 ? s * .25 : s * .62;
+      ctx[i ? 'lineTo' : 'moveTo'](Math.cos(a) * rad, Math.sin(a) * rad);
+    }
+    ctx.closePath();
+  }
+  ctx.fill();
+  ctx.restore();
+}
+function frame(t){
+  const dt = Math.min(.05, (t - last) / 1000 || 0); last = t;
+  ctx.clearRect(0, 0, W, H);
+  for (let i = pieces.length - 1; i >= 0; i--){
+    const p = pieces[i];
+    p.vx *= 1 - 1.2 * dt; p.vy = Math.min(p.vy + 900 * dt, 380);
+    p.x += p.vx * dt; p.y += p.vy * dt; p.r += p.vr * dt; p.f += p.vf * dt;
+    if (p.y > H + 30 || p.x < -60 || p.x > W + 60){ pieces.splice(i, 1); continue; }
+    drawPiece(p);
+  }
+  raf = pieces.length ? requestAnimationFrame(frame) : 0;
+  if (!pieces.length) ctx.clearRect(0, 0, W, H);
+}
+addEventListener('resize', resize);
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change', readPalette);
+new MutationObserver(readPalette).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+readPalette(); resize();
+big.addEventListener('click', e => burst(e.clientX, e.clientY, 36));
+
+const gate = $('#gate'), reveal = $('#reveal'), letterWrap = $('#letterWrap');
+const form = $('#form'), fields = $('#fields'), nameEl = $('#name'), dobEl = $('#dob');
+const msg = $('#msg'), openBtn = $('#open'), openLabel = openBtn.querySelector('span');
+const env = $('#env'), envName = $('#envName'), status = $('#status');
+const letterEl = $('#letter'), greetEl = $('#greet'), bodyEl = $('#bodyText'), signEl = $('#sign');
+const photoEl = $('#photo'), photoImg = $('#photoImg');
+const musicBtn = $('#music'), musicLabel = musicBtn.querySelector('span');
+let busy = false;
+
+let audio = null, audioTimer = 0, audioCfg = null, audioOn = false;
+function setMusicLabel(){ musicLabel.textContent = audioOn ? 'Tắt nhạc' : 'Phát nhạc'; }
+function stopMusic(){
+  clearInterval(audioTimer);
+  if (audio){ audio.pause(); audio.removeAttribute('src'); audio.load(); audio = null; }
+  audioOn = false; setMusicLabel();
+}
+function startMusic(cfg){
+  stopMusic();
+  audioCfg = cfg;
+  if (!cfg) return;
+  const a = new Audio();
+  audio = a; a.preload = 'auto'; a.src = cfg.src; a.volume = 0;
+  a.addEventListener('loadedmetadata', () => { if (cfg.start > 0) { try { a.currentTime = cfg.start; } catch (_) {} } }, { once: true });
+  a.addEventListener('error', () => { console.warn('Không mở được file nhạc: ' + cfg.src); musicBtn.hidden = true; stopMusic(); });
+  audioOn = true; setMusicLabel();
+  const pr = a.play();
+  if (pr && pr.catch) pr.catch(() => { if (audio === a){ audioOn = false; setMusicLabel(); clearInterval(audioTimer); } });
+  audioTimer = setInterval(() => {
+    const t = Math.max(0, a.currentTime - cfg.start);
+    if (a.ended || t >= cfg.dur){ stopMusic(); return; }
+    a.volume = Math.max(0, Math.min(1, t / 1.2, (cfg.dur - t) / 2)) * .9;
+  }, 50);
+}
+musicBtn.addEventListener('click', () => { if (audioOn) stopMusic(); else startMusic(audioCfg); });
+
+// Tự thêm dấu / sau ngày và sau tháng; vẫn cho phép tự gõ / . - hoặc khoảng trắng
+function formatDob(raw){
+  const caps = [2, 2, 4];
+  let out = '', seg = 0, count = 0;
+  for (const ch of raw){
+    if (/\d/.test(ch)){
+      if (count === caps[seg]){
+        if (seg === 2) break;
+        out += '/'; seg++; count = 0;
+      }
+      out += ch; count++;
+    } else if (/[\/.\-\s]/.test(ch) && count > 0 && seg < 2){
+      out += '/'; seg++; count = 0;
+    }
+  }
+  return out;
+}
+dobEl.addEventListener('input', () => {
+  const v = formatDob(dobEl.value);
+  if (v !== dobEl.value) dobEl.value = v;
+  clearMsg();
+});
+nameEl.addEventListener('input', clearMsg);
+
+function clearMsg(){
+  msg.textContent = '';
+  nameEl.removeAttribute('aria-invalid'); dobEl.removeAttribute('aria-invalid');
+}
+function fail(text, el){
+  msg.textContent = text;
+  nameEl.setAttribute('aria-invalid', 'true'); dobEl.setAttribute('aria-invalid', 'true');
+  el.focus({ preventScroll: true });
+  fields.classList.remove('shake'); void fields.offsetWidth; fields.classList.add('shake');
+}
+
+form.addEventListener('submit', e => {
+  e.preventDefault();
+  if (busy) return;
+  const name = nameEl.value.replace(/\s+/g, ' ').trim();
+  if (!name || !dobEl.value.trim()) return fail('Bạn nhập đủ tên và ngày sinh nhé.', name ? dobEl : nameEl);
+  const bd = parseDob(dobEl.value);
+  const letter = bd && BOOK.get(norm(name) + '|' + key(bd));
+  if (!letter) return fail('Tên hoặc ngày sinh chưa đúng, thử lại nhé.', nameEl);
+  if (letter.photo) new Image().src = letter.photo;
+  startMusic(letter.music);
+  play(letter);
+});
+
+async function play(L){
+  busy = true; clearMsg();
+  openBtn.disabled = true; openLabel.textContent = 'Đang mở…';
+  gate.classList.add('out'); await wait(450);
+  gate.hidden = true; gate.classList.remove('out');
+
+  env.classList.remove('broken', 'open'); reveal.classList.remove('leaving');
+  const label = 'Gửi ' + L.name;
+  envName.textContent = label;
+  envName.setAttribute('font-size', Math.max(14, Math.min(24, 24 - Math.max(0, label.length - 12) * .75)));
+  status.textContent = 'Đang mở thư của ' + L.name;
+  reveal.hidden = false; window.scrollTo(0, 0);
+
+  await wait(1650);
+  env.classList.add('broken'); await wait(300);
+  env.classList.add('open');
+  const r = env.getBoundingClientRect();
+  burst(r.left + r.width / 2, r.top + r.height * .35, 60);
+  await wait(1700);
+
+  reveal.classList.add('leaving'); await wait(600);
+  reveal.hidden = true; reveal.classList.remove('leaving');
+
+  renderLetter(L);
+  letterWrap.hidden = false; window.scrollTo(0, 0);
+  letterEl.focus({ preventScroll: true });
+  burst(W / 2, H * .9, 70); rain(1800);
+  busy = false;
+}
+
+function renderLetter(L){
+  photoEl.hidden = !L.photo;
+  if (L.photo){
+    photoImg.onerror = () => { photoEl.hidden = true; console.warn('Không mở được file ảnh: ' + L.photo); };
+    photoImg.alt = 'Ảnh gửi tặng ' + L.name;
+    photoImg.src = L.photo;
+  }
+  musicBtn.hidden = !L.music;
+  greetEl.textContent = L.greeting;
+  bodyEl.replaceChildren(...L.paragraphs.map((t, i) => {
+    const p = document.createElement('p');
+    p.className = 'line'; p.style.setProperty('--i', i + 1); p.textContent = t;
+    return p;
+  }));
+  signEl.hidden = !L.sign;
+  signEl.style.setProperty('--i', L.paragraphs.length + 1);
+  signEl.textContent = L.sign;
+}
+
+$('#more').addEventListener('click', () => { burst(W / 2, H * .9, 80); rain(1200); });
+$('#close').addEventListener('click', async () => {
+  stopMusic();
+  letterWrap.classList.add('out'); await wait(420);
+  letterWrap.hidden = true; letterWrap.classList.remove('out');
+  nameEl.value = ''; dobEl.value = '';
+  openBtn.disabled = false; openLabel.textContent = 'Mở thư';
+  gate.hidden = false; window.scrollTo(0, 0);
+});
+})();
+</script>
 </body>
 </html>
